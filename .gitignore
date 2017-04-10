@@ -4,3 +4,4 @@ functions/
 .firebaserc
 database.rules.json
 firebase.json
+404.html
