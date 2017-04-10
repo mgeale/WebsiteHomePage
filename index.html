@@ -13,45 +13,63 @@
 
 <body>
   <div class="backg-image">
-    <header>
-      <ul id="slide-out" class="side-nav">
-        <li>
-          <div class="userView">
-            <div class="background">
-              <img src="images/office.jpg">
-            </div>
-            <a href="#"><img class="circle" src="images/yuna.jpg"></a>
-            <a href="#"><span class="white-text name">Matt Geale</span></a>
-            <a href="#"><span class="white-text email">email@gmail.com</span></a>
+    <ul id="slide-out" class="side-nav">
+      <li>
+        <div class="userView">
+          <div class="background upholstery">
+            <!-- <img src="images/office.jpg"> -->
           </div>
-        </li>
-        <li><a href="#"><i class="material-icons">library_books</i>Projects</a></li>
-        <li><a href="#"><i class="material-icons">cloud</i>Photography</a></li>
-        <li>
-          <div class="divider"></div>
-        </li>
-        <li><a class="subheader">Web Apps</a></li>
-        <li><a class="waves-effect" href="#!">Endeavour Journal</a></li>
-        <li><a class="waves-effect" href="#!">War Photography</a></li>
-        <li><a class="waves-effect" href="#!">Natural History Drawings</a></li>
-      </ul>
-      <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+          <!-- <a href="/"><img class="circle" src="imgs/matt-geale.jpg"></a> -->
+          <a href="/"><span class="white-text name">Matt Geale</span></a>
+          <a href="https://twitter.com/mgeale" target="_blank"><span class="white-text email">@mgeale</span></a>
+        </div>
+      </li>
+      <li><a href="/"><i class="material-icons">person_pin</i>Home</a></li>
+      <li><a href="/projects.html"><i class="material-icons">library_books</i>Projects</a></li>
+      <li><a href="#"><i class="material-icons">cloud</i>Photography</a></li>
+      <li>
+        <div class="divider"></div>
+      </li>
+      <li><a class="subheader">Web Apps</a></li>
+      <li><a class="waves-effect" href="#">HMS Endeavour Journal</a></li>
+      <li><a class="waves-effect" href="#">World War 1 Photography</a></li>
+      <li><a class="waves-effect" href="#">Natural History Drawings</a></li>
+    </ul>
+    <a href="#" data-activates="slide-out" class="button-collapse btn-floating btn-small red"><i class="material-icons">menu</i></a>
+    <header>
+
     </header>
     <div class="container">
       <main>
         <div class="row">
-
-          <div class="col s12 m12 l6">
+          <div class="col s12 m12 l6" id="about">
             <h2>About Me</h2>
-            <p>My name is Matthew Geale.</p>
-            <p>I live in Sydney, Australia.</p>
-            <p>I do web marketing, web design and web development.</p>
-            <p>Contact me through <a href="https://twitter.com/mgeale" target="_blank">@mgeale</a>.</p>
-            <p>Work History at <a href="https://au.linkedin.com/in/mgeale" target="_blank">public profile</a>.</p>
-            <!-- <img src="imgs/matt-geale-cape-york-2016.jpg" class="hero-img materialboxed" alt="Cape York"> -->
+            <ul>
+              <li class="about-li" style="opacity: 0;">My name is Matthew Geale.</li>
+              <li class="about-li" style="opacity: 0;">I live in Sydney, Australia.</li>
+              <li class="about-li" style="opacity: 0;">I do web marketing, web design and web development.</li>
+              <li class="about-li" style="opacity: 0;">Contact me through <a href="https://twitter.com/mgeale" target="_blank">@mgeale</a>.</li>
+            </ul>
           </div>
           <div class="col s12 m12 l6">
-
+            <!-- <button>Projects</button>
+            <button>Photography</button> -->
+            <div class="row" id="intro-cards">
+              <div class="col s12 m12">
+                <div class="card-panel orange lighten-1">
+                  <span class="white-text">I am a very simple card. I am good at containing small bits of information.
+      I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+      </span>
+                </div>
+              </div>
+              <div class="col s12 m12">
+                <div class="card-panel orange lighten-1">
+                  <span class="white-text">I am a very simple card. I am good at containing small bits of information.
+      I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+      </span>
+                </div>
+              </div>
+            </div>
           </div>
 
         </div>
@@ -65,6 +83,10 @@
   <script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
   <script>
     $(".button-collapse").sideNav();
+    $(function() {
+      Materialize.showStaggeredList('#about');
+      Materialize.fadeInImage('#intro-cards')
+    });
   </script>
 </body>
 

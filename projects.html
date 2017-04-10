@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Matt Geale</title>
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <div>
+    <header>
+      <ul id="slide-out" class="side-nav">
+        <li>
+          <div class="userView">
+            <div class="background">
+              <img src="images/office.jpg">
+            </div>
+            <a href="/"><img class="circle" src="images/yuna.jpg"></a>
+            <a href="/"><span class="white-text name">Matt Geale</span></a>
+            <a href="/"><span class="white-text email">email@gmail.com</span></a>
+          </div>
+        </li>
+        <li><a href="/projects"><i class="material-icons">library_books</i>Projects</a></li>
+        <li><a href="#"><i class="material-icons">cloud</i>Photography</a></li>
+        <li>
+          <div class="divider"></div>
+        </li>
+        <li><a class="subheader">Web Apps</a></li>
+        <li><a class="waves-effect" href="#">HMS Endeavour Journal</a></li>
+        <li><a class="waves-effect" href="#">World War 1 Photography</a></li>
+        <li><a class="waves-effect" href="#">Natural History Drawings</a></li>
+      </ul>
+      <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons orange lighten-5">menu</i></a>
+    </header>
+    <div class="container">
+      <main>
+        <div class="row">
+        <div>HMS Endeavour Journal</div>
+        </div>
+        <div class="row">
+        <div>World War 1 Photographs</div>
+        </div>
+        <div class="row">
+        <div>Natural History Drawings</div>
+        </div>
+      </main>
+    </div>
+    <footer>
+
+    </footer>
+  </div>
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+  <script>
+    $(".button-collapse").sideNav();
+  </script>
+</body>
+
+</html>
