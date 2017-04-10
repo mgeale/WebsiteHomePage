@@ -1,0 +1,11 @@
+.backg-image {
+  background-repeat: no-repeat;
+  background-image: url('../imgs/matt-geale-cape-york-2016.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.hero-img {
+  width: 100%;
+}
