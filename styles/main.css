@@ -20,3 +20,15 @@
 .about-li {
     padding: 5px;
 }
+
+@media (min-width: 600px) {
+    .card {
+        display: flex;
+        justify-content: space-between;
+    }
+    .card-action {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+}
