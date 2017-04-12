@@ -1,4 +1,4 @@
-.backg-image {
+.bg-image {
     background-repeat: no-repeat;
     background-image: url('../imgs/matt-geale-cape-york-2016.jpg');
     background-size: cover;
@@ -7,13 +7,9 @@
     background-position: center;
 }
 
-.backg-color {
+.bg-color {
   /*background-color: white;
   opacity: 0.7;*/
-}
-
-main {
-  font-family: 'Nunito Sans', sans-serif;
 }
 
 .weave {
