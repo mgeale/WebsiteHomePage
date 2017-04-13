@@ -21,7 +21,6 @@
     "materialize-css": "^0.98.1"
   },
   "devDependencies": {
-    "grunt": "^1.0.1",
     "gulp": "^3.9.1"
   }
 }
