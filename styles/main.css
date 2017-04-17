@@ -11,15 +11,23 @@
   margin-top: 45px;
 }
 
-header {
+/*header {
   height: 41px;
   width: 100vw;
-  /*background-color: crimson;*/
+}*/
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .sidenav {
-    /*background-color: #840b2a;*/
     background-color: crimson;
+}
+
+.card-panel {
+  text-align: center;
 }
 
 @media (min-width: 600px) {
