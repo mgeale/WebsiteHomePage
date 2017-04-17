@@ -1,33 +1,19 @@
-.home {
+#home {
     background-repeat: no-repeat;
     background-image: url('../imgs/matt-geale-cape-york-2016.jpg');
     background-size: cover;
     height: 100vh;
     width: 100vw;
     background-position: center;
+    /*opacity: 0.75;*/
 }
 
 .projects .container {
   margin-top: 45px;
 }
 
-/*header {
-  height: 41px;
-  width: 100vw;
-}*/
-
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
 .sidenav {
     background-color: crimson;
-}
-
-.card-panel {
-  text-align: center;
 }
 
 @media (min-width: 600px) {
