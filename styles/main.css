@@ -5,7 +5,7 @@
     height: 90vh;
     width: 80vw;
     background-position: center;
-    opacity: 0.75;
+    opacity: 0.85;
     margin: auto;
 }
 
@@ -15,6 +15,16 @@
 
 .sidenav {
     background-color: crimson;
+}
+
+.intro-text {
+  opacity: 1 !important;
+  font-size: x-large;
+}
+
+.materialboxed {
+  margin: 5px;
+  width: 500px;
 }
 
 @media (min-width: 600px) {
