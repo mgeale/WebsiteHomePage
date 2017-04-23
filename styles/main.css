@@ -23,12 +23,12 @@
 }
 
 .materialboxed {
-  margin: 5px;
-  width: 500px;
+  width: 100%;
 }
 
 .photo-text {
-  text-align: center;
+  text-align: right;
+  margin: 10px 10px;
 }
 
 @media (min-width: 600px) {
