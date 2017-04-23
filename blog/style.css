@@ -62,10 +62,11 @@ a {
   border-radius: 3px;
   cursor: pointer;
 }
+.card:hover {
+  color: #736c65;
+}
 .card-padding {
   padding: 20px;
-  display: flex;
-  justify-content: space-between;
 }
 .no-link {
   cursor: default;
@@ -83,7 +84,7 @@ a {
 }
 .blog__teaser,
 .blog__content {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   --x-height-multiplier: 0.35;
   --baseline-multiplier: 0.179;
   letter-spacing: .01rem;
@@ -94,31 +95,16 @@ a {
   letter-spacing: -.003em;
 }
 .blog__author {
-  /*margin-bottom: 20px;*/
+  margin-bottom: 20px;
 }
 .blog__author-title {
-  /*position: relative;
+  position: relative;
   top: 7px;
-  float: left;*/
-  color: #666;
-}
-.blog__author-image {
   float: left;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 36px;
-  height: 36px;
-  border-radius: 100px;
-  margin-right: 10px;
+  color: #666;
 }
 .blog__tags {
   margin-bottom: 20px;
-}
-.blog__read-more {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .tag-pill {
   border: none;
@@ -141,10 +127,6 @@ a {
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
   margin-bottom: 0;
-}
-/* Author page */
-.author-page-title {
-  margin-bottom: 15px;
 }
 /*side nav*/
 .sidenav {
