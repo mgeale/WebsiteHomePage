@@ -6,7 +6,7 @@
   </title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+  <link rel="stylesheet" href="../node_modules/materialize-css/dist/css/materialize.min.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 </head>
@@ -14,7 +14,7 @@
   <header style="display: flex;">
     <a href="#" data-activates="slide-out" class="button-collapse btn-floating btn-small red"><i class="material-icons">menu</i></a>
     <div class="header" style="display: flex; justify-content: center; width: 100%;">
-      <a href="/" style=""><img src="home.svg" style="height: 35px;"/></a>
+      <a href="/blog" style=""><img src="imgs/home.svg" style="height: 35px;"/></a>
     </div>
   </header>
     <main class="container">
@@ -30,16 +30,12 @@
               </div>
             </div>
             <div class="blog__read-more">
-              <a href="/{{ slug }}"><img src="next.svg" style="height: 45px;"/></a>
+              <a href="/{{ slug }}"><img src="imgs/next.svg" style="height: 45px;"/></a>
             </div>
           </div>
         </div>
     </main>
   <footer class="footer">
-    <script
-    src="https://code.jquery.com/jquery-3.2.1.min.js"
-    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-    crossorigin="anonymous"></script>
     <script>
     $(function() {
       $('.card').on('click', function() {
@@ -63,8 +59,8 @@
     </li>
     <li><a href="/"><i class="material-icons">person_pin</i>Home</a></li>
     <li><a href="/projects"><i class="material-icons">view_list</i>Projects</a></li>
+    <li><a href="/photography"><i class="material-icons">cloud</i>Photography</a></li>
     <li><a href="/"><i class="material-icons">library_books</i>Blog</a></li>
-    <li><a href="#"><i class="material-icons">cloud</i>Photography</a></li>
     <li>
       <div class="divider"></div>
     </li>
@@ -73,8 +69,8 @@
     <li><a class="waves-effect" href="#">WWI Photographs</a></li>
     <li><a class="waves-effect" href="#">Natural History Drawings</a></li>
   </ul>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+  <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="../node_modules/materialize-css/dist/js/materialize.min.js"></script>
   <script>
     $(".button-collapse").sideNav();
   </script>
