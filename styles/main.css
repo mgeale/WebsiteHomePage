@@ -1,6 +1,20 @@
 #home {
     background-repeat: no-repeat;
-    background-image: url('../imgs/_DSC0766.jpg');
+    background-image: url('../imgs/hp-hero.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    /*opacity: 0.85;*/
+    margin: auto;
+    border-width: 15px;;
+    border-style: solid;
+    border-color: white;
+}
+
+#projects {
+    background-repeat: no-repeat;
+    background-image: url('../imgs/kyoto-house.jpg');
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -43,14 +57,14 @@ main {
 }
 
 .hp-title {
-  font-family: 'palanquin';
+  font-family: Verdana;
   text-transform: uppercase;
   color: white;
 }
 
 @font-face {
-  font-family: 'palanquin';
-  src: url('fonts/palanquin/palanquindark-medium.ttf');
+  /*font-family: 'grilli';*/
+  /*src: url('fonts/Grilli-Type-Trial-Fonts-2017-03/GT-America-Trial-Condensed-Medium.otf');*/
 }
 
 @media (min-width: 600px) {
