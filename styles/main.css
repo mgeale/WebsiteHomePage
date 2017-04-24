@@ -39,6 +39,14 @@ main {
     background-color: crimson;
 }
 
+.button-collapse {
+  color: #fff;
+}
+
+.sidenav-icon {
+  font-size:45px;
+}
+
 .intro-text {
   font-size: x-large;
   width: 400px;
