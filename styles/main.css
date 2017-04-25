@@ -15,17 +15,24 @@
     background-repeat: no-repeat;
     background-image: url('../imgs/kyoto-house.jpg');
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     background-position: center;
     margin: auto;
     border-width: 15px;;
     border-style: solid;
     border-color: white;
+    background-attachment: fixed;
 }
 
-.projects .container {
-  margin-top: 45px;
+.card .card-action {
+  display: flex;
+  justify-content:space-around;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+  margin-left: 12px !important;
+  margin-right: 12px !important;
 }
 
 #photography {
@@ -33,6 +40,10 @@
   border-width: 15px;;
   border-style: solid;
   border-color: #f5f5f5;
+}
+
+#photography .row .col {
+  padding: .75em;
 }
 
 .materialboxed {
@@ -52,10 +63,23 @@
 }
 
 @media (min-width: 600px) {
+    #projects {
+      height: 100vh;
+    }
+
+    #projects footer {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      padding-bottom: 16px;
+    }
+
     .card {
         display: flex;
         justify-content: space-between;
     }
+
     .card-action {
         display: flex;
         justify-content: space-around;
