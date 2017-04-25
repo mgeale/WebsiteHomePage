@@ -1,28 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <title>
-    Blog
-  </title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Matt Geale About</title>
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/main.css">
   <link rel="stylesheet" href="../node_modules/materialize-css/dist/css/materialize.min.css">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
-  <div id="blog">
-  <header style="display:flex;">
-    <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons sidenav-icon" style="font-size:45px;">menu</i></a>
-    <div class="header">
-      <a href="/blog"><img src="imgs/home.svg"/></a>
-    </div>
-  </header>
-    <main class="container">
-        <p>No blog posts just yet.</p>
+
+  <div id="about">
+    <!-- header -->
+    <header>
+      <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons sidenav-icon">menu</i></a>
+    </header>
+    <!-- main -->
+    <main>
+
     </main>
-  <footer></footer>
   </div>
+  <!-- footer -->
+  <footer></footer>
+  <!-- side nav -->
   <ul id="slide-out" class="side-nav">
     <li>
       <div class="userView">
@@ -30,33 +33,27 @@
           <!-- <img src="images/office.jpg"> -->
         </div>
         <!-- <a href="/"><img class="circle" src="imgs/matt-geale.jpg"></a> -->
-        <a href="/"><span class="white-text name">Matt Geale</span></a>
+        <span class="white-text name">Matt Geale</span>
         <a href="https://twitter.com/mgeale" target="_blank"><span class="white-text email">@mgeale</span></a>
       </div>
     </li>
     <li><a href="/"><i class="material-icons">person_pin</i>Home</a></li>
+    <li><a href="/about"><i class="material-icons">perm_identity</i>About</a></li>
     <li><a href="/projects"><i class="material-icons">view_list</i>Projects</a></li>
     <li><a href="/photography"><i class="material-icons">cloud</i>Photography</a></li>
-    <li><a href="/"><i class="material-icons">library_books</i>Blog</a></li>
     <li>
       <div class="divider"></div>
     </li>
     <li><a class="subheader">Web Apps</a></li>
     <li><a class="waves-effect" href="#">Endeavour Journal</a></li>
-    <li><a class="waves-effect" href="#">WWI Photographs</a></li>
-    <li><a class="waves-effect" href="#">Natural History Drawings</a></li>
+    <li><a class="waves-effect" href="#">War Photographs</a></li>
   </ul>
+
   <script src="../node_modules/jquery/dist/jquery.min.js"></script>
   <script src="../node_modules/materialize-css/dist/js/materialize.min.js"></script>
   <script>
     $(".button-collapse").sideNav();
-    $(function() {
-      $('.card').on('click', function() {
-        var href = $(this).data('href');
-        if (href)
-          window.location.href = href;
-      });
-    });
   </script>
 </body>
+
 </html>
