@@ -11,39 +11,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 </head>
 <body>
-  <header style="display: flex;">
-    <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons sidenav-icon">menu</i></a>
-    <div class="header" style="display: flex; justify-content: center; width: 100%;">
-      <a href="/blog" style=""><img src="imgs/home.svg" style="height: 35px;"/></a>
+  <div id="blog">
+  <header style="display:flex;">
+    <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons sidenav-icon" style="font-size:45px;">menu</i></a>
+    <div class="header">
+      <a href="/blog"><img src="imgs/home.svg"/></a>
     </div>
   </header>
     <main class="container">
-        <div class="card" data-href="/{{ slug }}">
-          <!-- <div class="blog-post-hero blog-post-hero--short" style="background-color:grey; height: 100px; width: 100%"></div> -->
-          <div class="card-padding">
-
-              <span class="blog__title blog__title--small">
-                <a href="/">First Blog Post</a>
-              </span>
-              <div class="blog__author">
-                <div class="blog__author-title">Apr 20, 2017</div>
-                <div class="clearfix"></div>
-              </div>
-            <div class="blog__teaser droid">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Loren.</div>
-          </div>
-        </div>
+        <p>No blog posts just yet.</p>
     </main>
-  <footer class="footer">
-    <script>
-    $(function() {
-      $('.card').on('click', function() {
-        var href = $(this).data('href');
-        if (href)
-          window.location.href = href;
-      });
-    });
-    </script>
-  </footer>
+  <footer></footer>
+  </div>
   <ul id="slide-out" class="side-nav">
     <li>
       <div class="userView">
@@ -71,6 +50,13 @@
   <script src="../node_modules/materialize-css/dist/js/materialize.min.js"></script>
   <script>
     $(".button-collapse").sideNav();
+    $(function() {
+      $('.card').on('click', function() {
+        var href = $(this).data('href');
+        if (href)
+          window.location.href = href;
+      });
+    });
   </script>
 </body>
 </html>
