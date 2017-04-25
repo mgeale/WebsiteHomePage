@@ -76,6 +76,12 @@
   font-size:45px;
 }
 
+.hp-text {
+  text-align: center;
+  margin: 24%;
+  height: 398px;
+}
+
 .hp-title {
   font-size: 38px;
   color: white;
@@ -91,6 +97,15 @@
   /*font-family: '';*/
   font-size: 28px;
   color: white;
+  display: flex;
+}
+
+.hp-links div {
+  margin: 0px 26px;
+}
+
+.hp-links div a {
+  color: #fff;
 }
 
 @media (min-width: 600px) {
