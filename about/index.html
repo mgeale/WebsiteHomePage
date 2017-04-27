@@ -30,7 +30,19 @@
   </script>
   <script type="text/javascript">
       (function() {
-          var path = '//easy.myfonts.net/v2/js?sid=34373(font-family=Gill+Sans+Light+Italic+OsF)&sid=212151(font-family=Gill+Sans+WGL+Regular+Alt+One)&sid=212952(font-family=Gill+Sans+Std+Light)&sid=213606(font-family=Gill+Sans+Pro+Cyrillic+Light+Inclined)&key=V7IahYXX5X',
+          var path = '//easy.myfonts.net/v2/js?sid=73240(font-family=Gill+Sans+Light+Italic)&sid=212147(font-family=Gill+Sans+WGL+Regular)&sid=212952(font-family=Gill+Sans+Std+Light)&sid=213613(font-family=Gill+Sans+Pro+Cyrillic+Medium)&key=ShJQsY4tbT',
+              protocol = ('https:' == document.location.protocol ? 'https:' : 'http:'),
+              trial = document.createElement('script');
+          trial.type = 'text/javascript';
+          trial.async = true;
+          trial.src = protocol + path;
+          var head = document.getElementsByTagName("head")[0];
+          head.appendChild(trial);
+      })();
+  </script>
+  <script type="text/javascript">
+      (function() {
+          var path = '//easy.myfonts.net/v2/js?sid=131873(font-family=Verdana)&sid=131890(font-family=Verdana+Bold)&key=rrFgkmUPzc',
               protocol = ('https:' == document.location.protocol ? 'https:' : 'http:'),
               trial = document.createElement('script');
           trial.type = 'text/javascript';
@@ -54,10 +66,10 @@
         <div class="text">
           <div class="title">About Me</div>
           <div class="links">
-            <a href="https://twitter.com/mgeale" target="_blank">Tweets</a></br>
-            <a href="https://github.com/mgeale" target="_blank">Repositories</a></br>
-            <a href="https://medium.com/@mgeale" target="_blank">Blog</a></br>
-            <a href="https://au.linkedin.com/in/mgeale" target="_blank">CV</a></br>
+            <div class="link"><a href="https://twitter.com/mgeale" target="_blank">Tweets</a></div>
+            <div class="link"><a href="https://github.com/mgeale" target="_blank">Repositories</a></div>
+            <div class="link"><a href="https://medium.com/@mgeale" target="_blank">Blog</a></div>
+            <div class="link"><a href="https://au.linkedin.com/in/mgeale" target="_blank">CV</a></div>
           </div>
         </div>
     </main>
