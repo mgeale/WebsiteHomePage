@@ -198,3 +198,19 @@
     margin: 100px auto;
   }
 }
+
+@media (max-width: 700px) and (orientation: landscape) {
+  .links {
+    display: none;
+  }
+  .container {
+    height: 60vh;
+  }
+  .text {
+    height: 100px;
+  }
+  #about .text {
+    top: 0;
+    height: 200px;
+  }
+}
