@@ -22,20 +22,20 @@
 }
 
 .title {
-  font-family: 'Futura Bold';
+  font-family: 'Futura LT W01 Bold';
   font-size: 38px;
   text-align: center;
   margin: 1% 0px;
 }
 
 .subtitle {
-  font-family: 'Verdana Bold';
+  font-family: 'Verdana W01 Bold';
   font-size: 18px;
   text-align: center;
 }
 
 .links {
-  font-family: 'Gill Sans Light Italic';
+  font-family: 'GillSansW01-LightItalic';
   font-size: 27px;
   width: 50%;
   margin: auto;
