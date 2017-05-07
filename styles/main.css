@@ -66,19 +66,19 @@
 }
 
 #about .text {
-  display: flex;
-  justify-content: space-between;
   color: #000;
 }
 
 #about .title {
   line-height: 64px;
   margin: 0;
+  text-align: left;
 }
 
 #about .links {
   display: flex;
   margin: 0;
+  justify-content: flex-end;
 }
 
 #about .links a img {
@@ -193,16 +193,6 @@
   #home .links {
     font-size: 25px;
   }
-  #about .text {
-    top: 12%;
-  }
-  #about .title {
-    text-align: center;
-  }
-  #about .links {
-    text-align: center;
-    margin: 100px auto;
-  }
 }
 
 @media (max-width: 700px) and (orientation: landscape) {
@@ -214,15 +204,5 @@
   }
   .text {
     height: 100px;
-  }
-  #about .text {
-    top: 0;
-    height: 200px;
-  }
-}
-
-@media (min-width: 1330px), (min-height: 900px){
-  #about {
-    background-size: cover;
   }
 }
