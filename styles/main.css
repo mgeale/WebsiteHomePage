@@ -203,6 +203,7 @@
     height: 60vh;
   }
   .text {
-    height: 100px;
+    height: 100px !important;
+    top: 17.5% !important;
   }
 }
