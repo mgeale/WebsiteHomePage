@@ -160,10 +160,6 @@
 }
 
 @media (min-width: 600px) {
-    #projects {
-      height: 100vh;
-    }
-
     #projects footer {
       position: absolute;
       right: 0;
