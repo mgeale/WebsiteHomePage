@@ -17,13 +17,6 @@
   },
   "homepage": "https://github.com/mgeale/portfoliohome#readme",
   "dependencies": {
-    "materialize-css": "^0.98.1"
-  },
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-minify-html": "^1.0.6",
-    "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^2.1.2"
+    "materialize-css": "^0.98.2"
   }
 }
